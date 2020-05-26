@@ -129,7 +129,7 @@ def main(stdscr):
 def menu(stdscr):
     '''Displays menu when the program is started.'''
     max_y, max_x = stdscr.getmaxyx()
-    stdscr.addstr(int(max_y/2)-5, int(max_x/2)-5,"my_type")
+    stdscr.addstr(int(max_y/2)-5, int(max_x/2)-5,"termtype")
     stdscr.addstr(int(max_y/2)-2, int(max_x/2)-18,"Press <enter> to start, <q> to quit.")
     while True:
         key = stdscr.getch()
